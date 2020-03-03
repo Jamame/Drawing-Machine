@@ -70,6 +70,12 @@ function draw() {
        stroke(c);
        line(posx, posy, posy, posx);
      }
+     if(mouseButton === RIGHT){
+       c = color(p,x,y);
+       stroke(c);
+       circle(600 - posx, 600 - posy,10);
+       circle(600 - posy, 600 - posx,10);
+     }
    }
   }
 

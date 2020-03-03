@@ -73,8 +73,8 @@ function draw() {
      if(mouseButton === RIGHT){
        c = color(p,x,y);
        stroke(c);
-       circle(600 - posx, 600 - posy,10);
-       circle(600 - posy, 600 - posx,10);
+       circle(800 - posx, 800 - posy,10);
+       circle(800 - posy, 800 - posx,10);
      }
    }
   }
